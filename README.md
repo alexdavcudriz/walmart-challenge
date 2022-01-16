@@ -1,5 +1,3 @@
-# Lider Challenge
-
 # Welcome!
 
 Below are the instructions to launch the three docker containers that correspond to an angular application, a java microservice, and a mongo database.
