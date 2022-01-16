@@ -10,6 +10,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document("products")
 public class Product {
 
+    private static final Double PRICE_DISCOUNT = 0.5;
+
     @Id
     String objectId;
     Integer id;
@@ -19,7 +21,7 @@ public class Product {
     Integer price;
 
     public Product doDiscount() {
-        this.setPrice((int)Math.round(this.price*0.5));
+        this.setPrice((int)Math.round(this.price*PRICE_DISCOUNT));
         return this;
     }
 }

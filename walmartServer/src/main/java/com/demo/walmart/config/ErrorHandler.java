@@ -22,7 +22,7 @@ public class ErrorHandler {
 
     @ExceptionHandler({BadRequestException.class})
     public ResponseEntity<String> handle(GenericException ex) {
-        log.error(HttpStatus.BAD_REQUEST.getReasonPhrase(), ex);
+        log.error(HttpStatus.BAD_REQUEST.getReasonPhrase(), ex.getMessage());
         return ResponseEntity.badRequest().body(ex.getMessage());
     }
 }
