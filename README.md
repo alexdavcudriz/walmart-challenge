@@ -2,6 +2,10 @@
 
 Below are the instructions to launch the three docker containers that correspond to an angular application, a java microservice, and a mongo database.
 
+Angular app port: 4200  
+Java/Spring app port: 8080  
+MongoDB port: 27017  
+
 ### Installation
 
 If you want to launch the apps for the first time, use this command, it's recommended doing it as **super user** in a linux distribution:
