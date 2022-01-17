@@ -4,8 +4,7 @@ Below are the instructions to launch the three docker containers that correspond
 
 ### Installation
 
-If you want to launch the apps for the first time, use this command, 
-it's recommended doing it as super/admin user:
+If you want to launch the apps for the first time, use this command, it's recommended doing it as **super user** in a linux distribution:
 ```sh
 $ make apps-init
 ```
