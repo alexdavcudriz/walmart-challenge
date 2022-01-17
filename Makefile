@@ -19,10 +19,10 @@ database-down:
 	docker rm -f mongodb-local
 
 client-build:
-	sudo docker build -t walmart-client:latest ./walmartClient
+	docker build -t walmart-client:latest ./walmartClient
 
 server-build:
-	sudo docker build -t walmart-server:latest ./walmartServer
+	docker build -t walmart-server:latest ./walmartServer
 
 do-builds:
 	make client-build
