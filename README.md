@@ -6,6 +6,8 @@ Angular app port: 4200
 Java/Spring app port: 8080  
 MongoDB port: 27017  
 
+When the app is up you can access it in the browser through the following url: [http://localhost:4200/](http://localhost:4200/)
+
 ### Installation
 
 If you want to launch the apps for the first time, use this command, it's recommended doing it as **super user** in a linux distribution:
